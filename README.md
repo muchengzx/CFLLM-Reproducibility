@@ -121,11 +121,14 @@ materials remain subject to their applicable permissions and licenses.
 
 ## License
 
-The RQ3 source directory contains an MIT license
-for the authorized RQ3 implementation.
+The original CFLLM source code in this repository is released under the
+[MIT License](LICENSE) (copyright: CFLLM Contributors, 2026).
 
-Licensing of other components, third-party material,
-datasets, and model artifacts must be assessed separately.
+Third-party dependencies and source materials remain under their respective
+licenses. The [Zenodo dataset](https://zenodo.org/records/23366406) and
+[LoRA adapter release](https://github.com/muchengzx/CFLLM-Reproducibility/releases/tag/v0.1.0)
+are separate research artifacts and are not automatically covered by the
+source-code MIT license.
 
 ## Citation
 
