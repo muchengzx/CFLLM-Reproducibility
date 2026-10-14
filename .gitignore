@@ -34,3 +34,16 @@ workspace/
 # Python caches
 __pycache__/
 *.pyc
+
+# Local historical references
+/rq1/_review/
+
+# Local data and checkpoint files
+/dataset/
+/models/
+*.safetensors
+*.zip
+
+# Python caches
+__pycache__/
+*.pyc
