@@ -1,0 +1,7 @@
+# Versions verified in the mosfet_sft environment
+# on 2026-10-14.
+# These are not yet confirmed as historical training versions.
+
+openai==2.36.0
+tree-sitter==0.26.0
+tree-sitter-cpp==0.23.4

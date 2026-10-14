@@ -1,0 +1,29 @@
+### model
+model_name_or_path: __CFLLM_BASE_MODEL__
+adapter_name_or_path: __CFLLM_RQ2_ADAPTER__
+template: qwen
+
+### inference
+stage: sft
+finetuning_type: lora
+infer_backend: huggingface
+infer_dtype: bfloat16
+
+### generation
+
+do_sample: true
+temperature: 1.5
+top_p: 0.8
+top_k: 20
+num_beams: 1
+repetition_penalty: 1.02
+max_new_tokens: 1024
+
+### runtime
+flash_attn: auto
+use_fast_tokenizer: true
+low_cpu_mem_usage: true
+
+### system prompt
+default_system: You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+

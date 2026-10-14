@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+.cache/
+wandb/
+runs/
+outputs/
+checkpoints/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.parquet
+*.jsonl_results.jsonl
+.local_config_backup/
+runtime_configs/
+workspace/
+
+.local_script_backup/
+/rq1/_review/
+
+# Local historical references
+/rq1/_review/
+
+# Local data and checkpoint files
+/dataset/
+/models/
+*.safetensors
+*.zip
+
+# Python caches
+__pycache__/
+*.pyc
