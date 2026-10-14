@@ -95,11 +95,29 @@ A complete end-to-end reproduction has not been verified.
 
 ## Data and Model Availability
 
-RQ2/RQ3 datasets and LoRA adapter checkpoints are
-being prepared for separate Zenodo records.
+### Source Code
 
-Dataset redistribution permissions and release metadata
-will be reviewed before public publication.
+Source code and reproducibility documentation are maintained in this GitHub repository.
+
+### Datasets
+
+- [CFLLM RQ2/RQ3 datasets (Zenodo)](https://zenodo.org/records/23366406)
+- Dataset DOI: [10.5281/zenodo.23366406](https://doi.org/10.5281/zenodo.23366406)
+
+The Zenodo dataset archive contains the RQ2 Python/C++ training datasets and
+RQ3 candidate-generation, screening, and self-distillation datasets.
+
+### Model Checkpoints
+
+- [CFLLM v0.1.0 LoRA adapter release](https://github.com/muchengzx/CFLLM-Reproducibility/releases/tag/v0.1.0)
+- [Download CFLLM-Models.zip](https://github.com/muchengzx/CFLLM-Reproducibility/releases/download/v0.1.0/CFLLM-Models.zip)
+- Base model: [Qwen/Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
+
+The GitHub release contains the RQ2 (`rq2_25`) and RQ3
+(`rq3_strict1570`) LoRA adapters, not the full base model.
+
+Redistribution and reuse of datasets, model artifacts, and third-party
+materials remain subject to their applicable permissions and licenses.
 
 ## License
 
